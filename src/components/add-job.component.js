@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import JobDataService from "../services/job.service";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class AddJob extends Component {
   constructor(props) {

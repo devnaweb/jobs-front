@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import JobDataService from "../services/job.service";
 import { Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class JobsList extends Component {
   constructor(props) {
